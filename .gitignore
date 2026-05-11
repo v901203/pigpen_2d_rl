@@ -1,0 +1,11 @@
+rl_env/
+__pycache__/
+*.pyc
+.vscode/
+models/
+logs/
+*.zip
+.env
+.DS_Store
+*.sqlite3
+venv/
