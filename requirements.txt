@@ -1,0 +1,12 @@
+# Minimal dependencies for development / running
+numpy>=1.21
+gymnasium>=0.26
+stable-baselines3[extra]
+torch
+pygame
+opencv-python
+tensorboard
+matplotlib
+
+# Optional / useful tools
+gymnasium[accept-roms]
