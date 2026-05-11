@@ -63,3 +63,13 @@ zip -r pigpen_models.zip models/PPO
 
 ---
 檔案： [requirements.txt](requirements.txt)、[pig_pen_env.py](pig_pen_env.py)、[train_pigpen.py](train_pigpen.py)、[test_model.py](test_model.py)
+
+## 註記 — 新專題
+
+本倉庫同時作為另一開發專案的參考代碼。未來會以 `pig_pen_rlpd` 為新專題名稱，該專題會以本專案為基底進行改良與實驗（例如資料集處理、domain randomization、以及 RL+PID 混合控制測試）。若你希望我將 `pig_pen_rlpd` 建為獨立 repo，我可以幫你：
+
+- 建立新分支 `pig_pen_rlpd` 並加入實驗代碼範本；
+- 或建立新的 GitHub repo 並把所需檔案複製過去（保留 models 與說明）；
+- 或在本 repo 下新增 `examples/rlpd/` 目錄放實驗代碼。
+
+請告訴我你想採哪種方式，我會幫你設定。
